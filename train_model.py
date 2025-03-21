@@ -3,7 +3,7 @@ from sklearn.preprocessing import StandardScaler, PowerTransformer
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import mlflow
-from sklearn.linear_model import SGDRegressor
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
 import numpy as np
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
